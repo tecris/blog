@@ -120,7 +120,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     alipay = "/path/to/your/alipay-qr-code.png"           # 支付宝二维码
 
   [params.social]                                         # 社交链接
-    a-email = "mailto:your@email.com"
+    a-email = "mailto:eugen@cristea.org"
     g-github = "http://github.com/tecris"
 
 # jsonfeed support

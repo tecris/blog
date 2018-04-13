@@ -2,8 +2,9 @@
 title: "Run Maven in Docker"
 date: 2018-04-13T04:53:46Z
 draft: true
+tags: ["maven", "docker", "docker-compose"]
 ---
-Sample how to run maven in docker(to be executed in project root directory, that is, directory that containts project pom.xml):
+Sample how to run maven in docker (to be executed in project root directory, that is, directory that containts project pom.xml):
 
 ```
 $ docker run --rm \
@@ -31,5 +32,4 @@ services:
       - /opt/pom.xml
       - clean
       - install
-
 ```

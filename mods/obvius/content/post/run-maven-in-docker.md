@@ -13,7 +13,7 @@ $ docker run --rm \
   maven:3.5.2-alpine \
   mvn -f /opt/pom.xml clean install
 ```
-
+<!--more-->
 or in docker-compose:
 ```
 version: '3'

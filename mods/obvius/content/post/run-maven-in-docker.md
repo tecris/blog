@@ -3,7 +3,8 @@ title: "Run Maven in Docker"
 date: 2018-04-13T04:53:46Z
 draft: true
 ---
-Sample how to run maven in docker:
+Sample how to run maven in docker(to be executed in project root directory, that is, directory that containts project pom.xml):
+
 ```
 $ docker run --rm \
   --name maven-build \

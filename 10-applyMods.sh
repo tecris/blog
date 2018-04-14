@@ -1,4 +1,4 @@
 #!/bin/bash
 
-rm -rf obvius/content/post/*
-cp -r mods/obvius .
+rm -rf trivialis-blog/content/post/*
+cp -r mods/trivialis-blog .

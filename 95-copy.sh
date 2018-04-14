@@ -1,3 +1,3 @@
 #!/bin/bash
 
- scp -r obvius/public/* simba:/opt/blog/
+ scp -r trivialis-blog/public/* simba:/opt/blog/

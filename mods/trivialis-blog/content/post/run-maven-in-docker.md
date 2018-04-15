@@ -1,6 +1,7 @@
 ---
 title: "Run Maven in Docker"
 date: 2018-04-13T04:53:46Z
+publishDate: 2018-04-13T04:53:46Z
 draft: false
 tags: ["maven", "docker", "docker-compose"]
 ---

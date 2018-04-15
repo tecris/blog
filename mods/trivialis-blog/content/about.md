@@ -9,3 +9,7 @@ weight: 50
 comment: false
 ---
 Personal place to learn and share.
+
+A playground to try and experiment.
+
+Examples mainly about open source projects.

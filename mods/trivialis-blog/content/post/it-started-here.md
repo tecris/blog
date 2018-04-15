@@ -10,7 +10,7 @@ draft: false
 
 The challenge for this blog is to present most, if not all, examples as *turn-key* samples.
 
-While all entries will attempt to include explanation snippets, the aim is to minimize use of, otherwise beloved *copy-and-paste*, and provide full source code with *ready-to-run solutions* (did anyone said **immutable**?).
+While all entries will attempt to include explanation snippets, the aim is to minimize the use of *copy-and-paste* (otherwise beloved), and provide full source code with *ready-to-run solutions* (did anyone said **immutable**?).
 <!--more-->
 
-The intention is to create *samples* that can be **tested** and **automated** as this is, IMHO, the only human possible way to maintain the blog.
+The intention is to create *samples* that can be **tested** in **automated-fashion** in order to *minimise* the time necessary for **updates** and/or **maintenance**.

@@ -77,10 +77,10 @@ services:
 
 &lt;p&gt;The challenge for this blog is to present most, if not all, examples as &lt;em&gt;turn-key&lt;/em&gt; samples.&lt;/p&gt;
 
-&lt;p&gt;While all entries will attempt to include explanation snippets, the aim is to minimize use of, otherwise beloved &lt;em&gt;copy-and-paste&lt;/em&gt;, and provide full source code with &lt;em&gt;ready-to-run solutions&lt;/em&gt; (did anyone said &lt;strong&gt;immutable&lt;/strong&gt;?).
+&lt;p&gt;While all entries will attempt to include explanation snippets, the aim is to minimize the use of &lt;em&gt;copy-and-paste&lt;/em&gt; (otherwise beloved), and provide full source code with &lt;em&gt;ready-to-run solutions&lt;/em&gt; (did anyone said &lt;strong&gt;immutable&lt;/strong&gt;?).
 &lt;/p&gt;
 
-&lt;p&gt;The intention is to create &lt;em&gt;samples&lt;/em&gt; that can be &lt;strong&gt;tested&lt;/strong&gt; and &lt;strong&gt;automated&lt;/strong&gt; as this is, IMHO, the only human possible way to maintain the blog.&lt;/p&gt;</description>
+&lt;p&gt;The intention is to create &lt;em&gt;samples&lt;/em&gt; that can be &lt;strong&gt;tested&lt;/strong&gt; in &lt;strong&gt;automated-fashion&lt;/strong&gt; in order to &lt;em&gt;minimise&lt;/em&gt; the time necessary for &lt;strong&gt;updates&lt;/strong&gt; and/or &lt;strong&gt;maintenance&lt;/strong&gt;.&lt;/p&gt;</description>
       
     </item>
     

@@ -1,3 +1,3 @@
 #!/bin/bash
 
-scp -r public/* simba:/opt/blog/
+scp -r public/* blog:/opt/blog/

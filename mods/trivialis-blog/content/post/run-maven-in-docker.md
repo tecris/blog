@@ -12,7 +12,7 @@ $ docker run --rm \
   --name maven-build \
   -v "$(pwd)":/opt \
   -v ~/.m2:/root/.m2 \
-  maven:3.5.2-alpine \
+  maven:3.5.3-alpine \
   mvn -f /opt/pom.xml clean install
 ```
 <!--more-->
@@ -22,7 +22,7 @@ version: '3'
 services:
 
   maven-build:
-    image: maven:3.5.2-alpine
+    image: maven:3.5.3-alpine
     container_name: maven-build
     volumes:
       - ./:/opt

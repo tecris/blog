@@ -34,3 +34,4 @@ services:
       - clean
       - install
 ```
+Sample source code available for download on [github](https://github.com/tecris/blog-samples/tree/master/run-maven-in-docker)

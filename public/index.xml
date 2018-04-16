@@ -62,7 +62,9 @@ services:
       - /opt/pom.xml
       - clean
       - install
-&lt;/code&gt;&lt;/pre&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Sample source code available for download on &lt;a href=&#34;https://github.com/tecris/blog-samples/tree/master/run-maven-in-docker&#34;&gt;github&lt;/a&gt;&lt;/p&gt;</description>
       
     </item>
     

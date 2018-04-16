@@ -40,7 +40,7 @@
   --name maven-build \
   -v &amp;quot;$(pwd)&amp;quot;:/opt \
   -v ~/.m2:/root/.m2 \
-  maven:3.5.2-alpine \
+  maven:3.5.3-alpine \
   mvn -f /opt/pom.xml clean install
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -51,7 +51,7 @@ or in docker-compose:&lt;/p&gt;
 services:
 
   maven-build:
-    image: maven:3.5.2-alpine
+    image: maven:3.5.3-alpine
     container_name: maven-build
     volumes:
       - ./:/opt

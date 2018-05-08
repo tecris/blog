@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Trivialis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Apr 2018 04:53:46 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 May 2018 18:33:25 +0000</lastBuildDate>
     
 	<atom:link href="https://trivialis.eu/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Docker</title>
       <link>https://trivialis.eu/tags/docker/</link>
-      <pubDate>Fri, 13 Apr 2018 04:53:46 +0000</pubDate>
+      <pubDate>Mon, 07 May 2018 18:33:25 +0000</pubDate>
       
       <guid>https://trivialis.eu/tags/docker/</guid>
       <description></description>
@@ -23,9 +23,27 @@
     <item>
       <title>Docker Compose</title>
       <link>https://trivialis.eu/tags/docker-compose/</link>
-      <pubDate>Fri, 13 Apr 2018 04:53:46 +0000</pubDate>
+      <pubDate>Mon, 07 May 2018 18:33:25 +0000</pubDate>
       
       <guid>https://trivialis.eu/tags/docker-compose/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kafka</title>
+      <link>https://trivialis.eu/tags/kafka/</link>
+      <pubDate>Mon, 07 May 2018 18:33:25 +0000</pubDate>
+      
+      <guid>https://trivialis.eu/tags/kafka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Log4j2</title>
+      <link>https://trivialis.eu/tags/log4j2/</link>
+      <pubDate>Mon, 07 May 2018 18:33:25 +0000</pubDate>
+      
+      <guid>https://trivialis.eu/tags/log4j2/</guid>
       <description></description>
     </item>
     

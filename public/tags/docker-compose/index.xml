@@ -6,10 +6,43 @@
     <description>Recent content in Docker Compose on Trivialis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Apr 2018 04:53:46 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 May 2018 18:33:25 +0000</lastBuildDate>
     
 	<atom:link href="https://trivialis.eu/tags/docker-compose/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Log4j2 Kafka Appender With TLS Secured Kafka Broker</title>
+      <link>https://trivialis.eu/post/log4j2-kafka-appender-with-tls-secured-kafka-broker/</link>
+      <pubDate>Mon, 07 May 2018 18:33:25 +0000</pubDate>
+      
+      <guid>https://trivialis.eu/post/log4j2-kafka-appender-with-tls-secured-kafka-broker/</guid>
+      <description>&lt;p&gt;This example demonstrates how to send logs to a TLS secured Kafka broker using log4j2 &lt;a href=&#34;https://logging.apache.org/log4j/2.x/manual/appenders.html#KafkaAppender&#34;&gt;KafkaAppender&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The oneLiner script was tested on Ubuntu 16.04 with docker &amp;amp; docker-compose.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git clone https://github.com/tecris/blog-samples&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd log4j2-kafka-tls&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;$ ./oneLiner.sh&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/tecris/blog-samples/blob/master/log4j2-kafka-tls/src/main/resources/log4j2.xml&#34;&gt;log4j2.xml&lt;/a&gt; configuration:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;Appenders&amp;gt;
+  &amp;lt;Kafka name=&amp;quot;Kafka&amp;quot; topic=&amp;quot;${sys:kafkaTopic}&amp;quot;&amp;gt;
+    &amp;lt;PatternLayout pattern=&amp;quot;[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n&amp;quot;/&amp;gt;
+    &amp;lt;Property name=&amp;quot;bootstrap.servers&amp;quot;&amp;gt;${sys:kafkaUrl}&amp;lt;/Property&amp;gt;
+    &amp;lt;Property name=&amp;quot;security.protocol&amp;quot;&amp;gt;SSL&amp;lt;/Property&amp;gt;
+    &amp;lt;Property name=&amp;quot;ssl.truststore.location&amp;quot;&amp;gt;/etc/security/tls/client.truststore.jks&amp;lt;/Property&amp;gt;
+    ...
+  &amp;lt;/Kafka&amp;gt;
+  ...
+&amp;lt;/Appenders&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Run Maven in Docker</title>

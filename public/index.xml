@@ -34,7 +34,7 @@
       
       <guid>https://trivialis.eu/post/run-maven-in-docker/</guid>
       
-        <description>&lt;p&gt;Sample how to run maven in docker (to be executed in project root directory, that is, directory that containts project pom.xml):&lt;/p&gt;
+        <description>&lt;p&gt;Sample how to run maven in docker (to be executed in project root directory, that is, directory that contains project pom.xml):&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;$ docker run --rm \
   --name maven-build \

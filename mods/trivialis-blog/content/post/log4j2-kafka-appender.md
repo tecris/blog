@@ -3,7 +3,7 @@ title: "Log4j2 Kafka Appender"
 date: 2018-05-05T18:33:25Z
 publishDate: 2018-05-06T19:53:46Z
 draft: false
-tags: ["log4j2", "kafka", "docker", "docker-compose"]
+tags: ["log4j2", "java", "kafka", "docker", "docker-compose"]
 ---
 This example demonstrates how to send logs to Kafka using log4j2 [KafkaAppender](https://logging.apache.org/log4j/2.x/manual/appenders.html#KafkaAppender).
 

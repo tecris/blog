@@ -1,7 +1,8 @@
 ---
 title: "Log4j2 Kafka Appender With TLS Secured Kafka Broker"
 date: 2018-05-07T18:33:25Z
-draft: true
+publishDate: 2018-05-07T19:53:46Z
+draft: false
 tags: ["log4j2", "kafka", "docker", "docker-compose"]
 ---
 This example demonstrates how to send logs to a TLS secured Kafka broker using log4j2 [KafkaAppender](https://logging.apache.org/log4j/2.x/manual/appenders.html#KafkaAppender).

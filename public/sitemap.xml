@@ -17,6 +17,13 @@
   </url>
   
   <url>
+    <loc>https://trivialis.eu/post/log4j2-kafka-appender/</loc>
+    <lastmod>2018-05-05T18:33:25+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://trivialis.eu/post/run-maven-in-docker/</loc>
     <lastmod>2018-04-13T04:53:46+00:00</lastmod>
     <changefreq>weekly</changefreq>

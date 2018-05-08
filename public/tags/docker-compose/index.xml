@@ -45,6 +45,36 @@
     </item>
     
     <item>
+      <title>Log4j2 Kafka Appender</title>
+      <link>https://trivialis.eu/post/log4j2-kafka-appender/</link>
+      <pubDate>Sat, 05 May 2018 18:33:25 +0000</pubDate>
+      
+      <guid>https://trivialis.eu/post/log4j2-kafka-appender/</guid>
+      <description>&lt;p&gt;This example demonstrates how to send logs to Kafka using log4j2 &lt;a href=&#34;https://logging.apache.org/log4j/2.x/manual/appenders.html#KafkaAppender&#34;&gt;KafkaAppender&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;oneLiner&lt;/code&gt; script was tested on Ubuntu 16.04 with docker &amp;amp; docker-compose.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git clone https://github.com/tecris/blog-samples&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd log4j2-kafka&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;$ ./oneLiner.sh&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/tecris/blog-samples/blob/master/log4j2-kafka/src/main/resources/log4j2.xml&#34;&gt;log4j2.xml&lt;/a&gt; configuration:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;Appenders&amp;gt;
+  &amp;lt;Kafka name=&amp;quot;Kafka&amp;quot; topic=&amp;quot;${sys:kafkaTopic}&amp;quot;&amp;gt;
+    &amp;lt;PatternLayout pattern=&amp;quot;[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n&amp;quot;/&amp;gt;
+    &amp;lt;Property name=&amp;quot;bootstrap.servers&amp;quot;&amp;gt;${sys:kafkaUrl}&amp;lt;/Property&amp;gt;
+  &amp;lt;/Kafka&amp;gt;
+  ...
+&amp;lt;/Appenders&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Run Maven in Docker</title>
       <link>https://trivialis.eu/post/run-maven-in-docker/</link>
       <pubDate>Fri, 13 Apr 2018 04:53:46 +0000</pubDate>

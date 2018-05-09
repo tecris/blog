@@ -7,6 +7,11 @@ tags: ["log4j2", "java", "kafka", "docker", "docker-compose"]
 ---
 This example demonstrates how to send logs to Kafka using log4j2 [KafkaAppender](https://logging.apache.org/log4j/2.x/manual/appenders.html#KafkaAppender).
 
+#### Stack
+ * Java 8
+ * Kafka 1.1.0
+ * Maven 3.5
+
 The `oneLiner` script was tested on Ubuntu 16.04 with docker & docker-compose.
 
 - `git clone https://github.com/tecris/blog-samples`

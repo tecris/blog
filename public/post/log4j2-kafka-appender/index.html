@@ -26,7 +26,7 @@
 
 <meta name="author" content="tecris" />
   <meta name="description" content="This example demonstrates how to send logs to Kafka using log4j2 KafkaAppender.
-The oneLiner script was tested on Ubuntu 16.04 with docker &amp;amp; docker-compose.
+Stack  Java 8 Kafka 1.1.0 Maven 3.5  The oneLiner script was tested on Ubuntu 16.04 with docker &amp;amp; docker-compose.
  git clone https://github.com/tecris/blog-samples cd log4j2-kafka $ ./oneLiner.sh  log4j2.xml configuration:
 &amp;lt;Appenders&amp;gt; &amp;lt;Kafka name=&amp;quot;Kafka&amp;quot; topic=&amp;quot;${sys:kafkaTopic}&amp;quot;&amp;gt; &amp;lt;PatternLayout pattern=&amp;quot;[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n&amp;quot;/&amp;gt; &amp;lt;Property name=&amp;quot;bootstrap.servers&amp;quot;&amp;gt;${sys:kafkaUrl}&amp;lt;/Property&amp;gt; &amp;lt;/Kafka&amp;gt; ... &amp;lt;/Appenders&amp;gt;  
 " />
@@ -63,6 +63,14 @@ The oneLiner script was tested on Ubuntu 16.04 with docker &amp;amp; docker-comp
 
 <meta property="og:title" content="Log4j2 Kafka Appender" />
 <meta property="og:description" content="This example demonstrates how to send logs to Kafka using log4j2 KafkaAppender.
+
+Stack
+
+
+Java 8
+Kafka 1.1.0
+Maven 3.5
+
 
 The oneLiner script was tested on Ubuntu 16.04 with docker &amp; docker-compose.
 
@@ -106,6 +114,14 @@ log4j2.xml configuration:
 <meta itemprop="name" content="Log4j2 Kafka Appender">
 <meta itemprop="description" content="This example demonstrates how to send logs to Kafka using log4j2 KafkaAppender.
 
+Stack
+
+
+Java 8
+Kafka 1.1.0
+Maven 3.5
+
+
 The oneLiner script was tested on Ubuntu 16.04 with docker &amp; docker-compose.
 
 
@@ -130,7 +146,7 @@ log4j2.xml configuration:
 
 <meta itemprop="datePublished" content="2018-05-06T19:53:46&#43;00:00" />
 <meta itemprop="dateModified" content="2018-05-05T18:33:25&#43;00:00" />
-<meta itemprop="wordCount" content="58">
+<meta itemprop="wordCount" content="65">
 
 
 
@@ -138,6 +154,14 @@ log4j2.xml configuration:
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Log4j2 Kafka Appender"/>
 <meta name="twitter:description" content="This example demonstrates how to send logs to Kafka using log4j2 KafkaAppender.
+
+Stack
+
+
+Java 8
+Kafka 1.1.0
+Maven 3.5
+
 
 The oneLiner script was tested on Ubuntu 16.04 with docker &amp; docker-compose.
 
@@ -283,7 +307,7 @@ log4j2.xml configuration:
       <div class="post-meta">
         <span class="post-time"> May 5, 2018 </span>
         
-        <span class="more-meta"> 58 words </span>
+        <span class="more-meta"> 65 words </span>
         <span class="more-meta"> 1 min read </span>
       </div>
     </header>
@@ -293,13 +317,34 @@ log4j2.xml configuration:
 <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">Table of Contents</h2>
   <div class="post-toc-content">
-    
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#stack">Stack</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
   </div>
 </div>
 
     
     <div class="post-content">
       <p>This example demonstrates how to send logs to Kafka using log4j2 <a href="https://logging.apache.org/log4j/2.x/manual/appenders.html#KafkaAppender">KafkaAppender</a>.</p>
+
+<h4 id="stack">Stack</h4>
+
+<ul>
+<li>Java 8</li>
+<li>Kafka 1.1.0</li>
+<li>Maven 3.5</li>
+</ul>
 
 <p>The <code>oneLiner</code> script was tested on Ubuntu 16.04 with docker &amp; docker-compose.</p>
 

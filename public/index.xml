@@ -36,7 +36,15 @@
       
         <description>&lt;p&gt;This example demonstrates how to send logs to a TLS secured Kafka broker using log4j2 &lt;a href=&#34;https://logging.apache.org/log4j/2.x/manual/appenders.html#KafkaAppender&#34;&gt;KafkaAppender&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;The oneLiner script was tested on Ubuntu 16.04 with docker &amp;amp; docker-compose.&lt;/p&gt;
+&lt;h4 id=&#34;stack&#34;&gt;Stack&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Java 8&lt;/li&gt;
+&lt;li&gt;Kafka 1.1.0&lt;/li&gt;
+&lt;li&gt;Maven 3.5&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The oneLiner script was tested on Ubuntu 16.04 with docker (18.03.1-ce) &amp;amp; docker-compose (1.17).&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;git clone https://github.com/tecris/blog-samples&lt;/code&gt;&lt;/li&gt;
@@ -72,6 +80,14 @@
       <guid>https://trivialis.eu/post/log4j2-kafka-appender/</guid>
       
         <description>&lt;p&gt;This example demonstrates how to send logs to Kafka using log4j2 &lt;a href=&#34;https://logging.apache.org/log4j/2.x/manual/appenders.html#KafkaAppender&#34;&gt;KafkaAppender&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;stack&#34;&gt;Stack&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Java 8&lt;/li&gt;
+&lt;li&gt;Kafka 1.1.0&lt;/li&gt;
+&lt;li&gt;Maven 3.5&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;The &lt;code&gt;oneLiner&lt;/code&gt; script was tested on Ubuntu 16.04 with docker &amp;amp; docker-compose.&lt;/p&gt;
 

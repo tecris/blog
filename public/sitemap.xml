@@ -10,6 +10,13 @@
   </url>
   
   <url>
+    <loc>https://trivialis.eu/post/letsencrypt-with-docker/</loc>
+    <lastmod>2018-05-22T17:58:42+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://trivialis.eu/post/log4j2-kafka-appender-with-tls-secured-kafka-broker/</loc>
     <lastmod>2018-05-09T05:03:33+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -72,6 +79,13 @@
   </url>
   
   <url>
+    <loc>https://trivialis.eu/tags/lets-encrypt/</loc>
+    <lastmod>2018-05-22T17:58:42+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://trivialis.eu/tags/log4j2/</loc>
     <lastmod>2018-05-09T05:03:33+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -87,7 +101,7 @@
   
   <url>
     <loc>https://trivialis.eu/post/</loc>
-    <lastmod>2018-05-09T05:03:33+00:00</lastmod>
+    <lastmod>2018-05-22T17:58:42+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

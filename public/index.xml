@@ -28,6 +28,46 @@
     </item>
     
     <item>
+      <title>Let`s Encrypt With Docker</title>
+      <link>https://trivialis.eu/post/letsencrypt-with-docker/</link>
+      <pubDate>Tue, 22 May 2018 17:58:42 +0000</pubDate>
+      
+      <guid>https://trivialis.eu/post/letsencrypt-with-docker/</guid>
+      
+        <description>&lt;p&gt;Big THANK YOU to &lt;a href=&#34;https://letsencrypt.org&#34;&gt;Let&amp;rsquo;s Encrypt&lt;/a&gt; for providing this service.&lt;/p&gt;
+
+&lt;p&gt;Assumptions:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;docker available on the target server&lt;/li&gt;
+&lt;li&gt;port 80 open for inbound connections&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;$ sudo docker run -it --rm --name certbot \
+  -p 80:80 \
+  -v &amp;quot;/etc/letsencrypt:/etc/letsencrypt&amp;quot; \
+  -v &amp;quot;/var/lib/letsencrypt:/var/lib/letsencrypt&amp;quot; \
+  certbot/certbot certonly --standalone -d domanin.org \
+  --text --agree-tos \
+  --email admin@example.com \
+  --server https://acme-v01.api.letsencrypt.org/directory \
+  --rsa-key-size 4096 --verbose --renew-by-default \
+  --preferred-challenges http
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;
+Certificates can be found here:
+&lt;code&gt;/etc/letsencrypt/live/domain.org/&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;For tls/ssl certificate use &lt;code&gt;fullchain.pem&lt;/code&gt; &amp;amp; for certificate key use &lt;code&gt;privkey.pem&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Sample source code available for download on &lt;a href=&#34;https://github.com/tecris/blog-samples/tree/master/letsencrypt-with-docker&#34;&gt;github&lt;/a&gt;
+&lt;/br&gt;
+&lt;a href=&#34;https://certbot.eff.org/docs/install.html#running-with-docker&#34;&gt;Reference&lt;/a&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
       <title>Log4j2 Kafka Appender With TLS Secured Kafka Broker</title>
       <link>https://trivialis.eu/post/log4j2-kafka-appender-with-tls-secured-kafka-broker/</link>
       <pubDate>Mon, 07 May 2018 18:33:25 +0000</pubDate>

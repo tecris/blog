@@ -205,6 +205,50 @@
     
       <article class="post bg-white">
   <header class="post-header">
+    <h1 class="post-title"><a class="post-link" href="/post/letsencrypt-with-docker/">Let`s Encrypt With Docker</a></h1>
+    
+    <div class="post-meta">
+      <span class="post-time"> May 22, 2018 </span>
+      
+      <span class="more-meta"> 89 words </span>
+      <span class="more-meta"> 1 min read </span>
+    </div>
+  </header>
+  
+  <div class="post-content">
+    
+    <div class="post-summary">
+      <p>Big THANK YOU to <a href="https://letsencrypt.org">Let&rsquo;s Encrypt</a> for providing this service.</p>
+
+<p>Assumptions:</p>
+
+<ul>
+<li>docker available on the target server</li>
+<li>port 80 open for inbound connections</li>
+</ul>
+
+<pre><code>$ sudo docker run -it --rm --name certbot \
+  -p 80:80 \
+  -v &quot;/etc/letsencrypt:/etc/letsencrypt&quot; \
+  -v &quot;/var/lib/letsencrypt:/var/lib/letsencrypt&quot; \
+  certbot/certbot certonly --standalone -d domanin.org \
+  --text --agree-tos \
+  --email admin@example.com \
+  --server https://acme-v01.api.letsencrypt.org/directory \
+  --rsa-key-size 4096 --verbose --renew-by-default \
+  --preferred-challenges http
+</code></pre>
+    </div>
+    <div class="read-more">
+      <a href="/post/letsencrypt-with-docker/" class="read-more-link">Read more</a>
+    </div>
+    
+  </div>
+</article>
+
+    
+      <article class="post bg-white">
+  <header class="post-header">
     <h1 class="post-title"><a class="post-link" href="/post/log4j2-kafka-appender-with-tls-secured-kafka-broker/">Log4j2 Kafka Appender With TLS Secured Kafka Broker</a></h1>
     
     <div class="post-meta">

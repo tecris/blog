@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lets Encrypt on Trivialis</title>
+    <link>https://trivialis.eu/tags/lets-encrypt/</link>
+    <description>Recent content in Lets Encrypt on Trivialis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 22 May 2018 17:58:42 +0000</lastBuildDate>
+    
+	<atom:link href="https://trivialis.eu/tags/lets-encrypt/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Let`s Encrypt With Docker</title>
+      <link>https://trivialis.eu/post/letsencrypt-with-docker/</link>
+      <pubDate>Tue, 22 May 2018 17:58:42 +0000</pubDate>
+      
+      <guid>https://trivialis.eu/post/letsencrypt-with-docker/</guid>
+      <description>&lt;p&gt;Big THANK YOU to &lt;a href=&#34;https://letsencrypt.org&#34;&gt;Let&amp;rsquo;s Encrypt&lt;/a&gt; for providing this service.&lt;/p&gt;
+
+&lt;p&gt;Assumptions:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;docker available on the target server&lt;/li&gt;
+&lt;li&gt;port 80 open for inbound connections&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;$ sudo docker run -it --rm --name certbot \
+  -p 80:80 \
+  -v &amp;quot;/etc/letsencrypt:/etc/letsencrypt&amp;quot; \
+  -v &amp;quot;/var/lib/letsencrypt:/var/lib/letsencrypt&amp;quot; \
+  certbot/certbot certonly --standalone -d domanin.org \
+  --text --agree-tos \
+  --email admin@example.com \
+  --server https://acme-v01.api.letsencrypt.org/directory \
+  --rsa-key-size 4096 --verbose --renew-by-default \
+  --preferred-challenges http
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
